@@ -67,11 +67,13 @@ Le Securities sono, in genere, scambiate a un exchange market, un mercato finanz
 \item[Maturity Date] è la data in cui il {\bfseries Bond} termina.
 \end {description}
 Il valore di un bond dipende quindi da:  {\bfseries Il tempo di maturità, gli interessi e la frequenza di pagamento}. \newline
-Supponendo di avere un investitore che acquisisce un bond con: \newline
+Supponendo di avere un investitore che acquisisce un bond con: 
+\begin{center}
 \textbf{Principal}=100\euro \newline
 \textbf{interesse annuale}=10\% \newline
 Allora il valore del bond dopo un anno sarà: \newline
  100\euro+(0.1*100 \euro)= 100 \euro *(1+0.1)=110 \euro
+\end{center}
 \newpage
 
 %%%% NEWPAGE
@@ -149,7 +151,7 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 %%%% NEWPAGE
 
 \section{Storico transazioni}
-	Per questa sezione faremo riferimento a YahooFinance \newline
+	{\tiny{Per questa sezione faremo riferimento a YahooFinance}} \newline
 	Nella lettura delle quote di una Azienda particolare sono presenti i seguenti TAG \newline
 \begin{description}
 	\item[Ticker] L'id dell'azienda (AAPL=> Apple Inc.)
@@ -161,17 +163,18 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 	\item[Volume] quantità di shares scambiate (non viene precisato se buy/sell)
 	\item[Dividend] un pagamento periodico che riflette i profitti in ritorno agli shareholder
 \end{description}
-è possibile che alla chiusura e all'apertura del mercato Open e Close del giorno precedente non coincidano \newline
-questo perchè alcuni scambi potrebbero alterare il valore in chiusura %%%Not important
+	è possibile che alla chiusura e all'apertura del mercato Open e Close del giorno precedente non coincidano \newline
+	questo perchè alcuni scambi conclusi in chiusura potrebbero alterare il valore in chiusura %%%Not important
 \newpage
 
 %%%%NEWPAGE
 
 \section{Payoff e profit delle stocks}
 	Verranno utilizzate le seguenti variabili:
-\footnote {this is not full, please send help}
+\footnote{ C($S_0$)= rischio?}
 \begin{align*} %%aggiungi le prossime variabili
 	S &= {\text {prezzo della stock S al tempo T con $S_0$= prezzo iniziale}}\\
+	D&= {\text {derivate al tempo T }}\\
 	T &= {\text {tempo con $S_T$ = tempo di vendita}}\\
 	r &= {\text { tasso di interesse}}\\
 \end{align*}
@@ -200,7 +203,7 @@ i ritorni verranno analizzati più tardi %% Reference pls
 \section{Opzioni e Derivate}
 	Un \textbf{Opzione} è un contratto tra investitori nel quale si acquista \textbf{l'opportunità} ma non \textbf{l'obbligo} 
 	di scambiare un particolare asset in una data futura ad un prezzo prestabilito \newline
-	Termini: \newline
+	Termini: 
 \begin{description}
 	\item[Exercise date o Maturity:] data prestabilita in cui verrà svolto lo scambio 
 	\item[Exercise o Strike price:] prezzo dell'asset che viene prestabilito
@@ -252,7 +255,7 @@ i ritorni verranno analizzati più tardi %% Reference pls
 	T &= \text{tempo settato per la maturity} \\
 	\text{C($P_0$,T)} &= \text{il prezzo ottenuto dalla coppia P,T}\\
 \end{align*}
-in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che questi valori sono ricevuti a un diverso periodo T dobbiamo includere i possibili guadagni che avremmo ricevuto con un asset risk-free con in tasso di investimento r\footnote{ $\tau$ = T-$T_0$} \newline
+in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che questi valori sono ricevuti a un diverso periodo T dobbiamo includere i possibili guadagni che avremmo ricevuto con un asset risk-free con un tasso di investimento r\footnote{ $\tau$ = T-$T_0$} \newline
 
 \begin{center}
 	$max(P_T - K, 0) - C(P_0,T)e^{r*\tau}$
@@ -269,6 +272,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	\item \textbf{L'Holder} assume un rischio pagando il premio, che sarà una perdita se non esercita la opzione
 	\item \textbf{L'Issuer} assume un rischio, in quanto se l'opzione viene esercitatà sarà a un prezzo minore del prezzo di 	mercato
 \end{enumerate}
+ 	Va quindi trovato un prezzo adeguato ad entrambi i partiti, che rifletta il rischio dell'opzione correttamente.
 \newpage
 
 %%%% NEWPAGE
@@ -286,8 +290,8 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 \end{align*}
 	allora il profit/payoff è
 \begin{center}
-	$P_T$-K  \small{per l'acquisto} \\
-	K-$P_T$ \small{per la vendita}
+	$P_T$-K  {\small{per l'acquisto}} \\
+	K-$P_T$ {\small{per la vendita}}
 \end{center}
 \newpage
 
@@ -325,12 +329,19 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 %%%% NEWPAGE
 \chapter{Trading}
 \section{Posizioni di Trading}
-	\textbf{Posizioni lunghe e corte}
+	\textbf{Posizioni lunghe e corte} \newline
 	Un investitore che possiede una security è detto \textbf{long} nella security \newline
-	Un investitore che "presta" una security è detto \textbf{short} nella security \newline
+	Un investitore che "prende in prestito" una security è detto \textbf{short} nella security \newline \footnote{https://www.investopedia.com/terms/s/short.asp    Per chiarire il concetto di short}
 	L'atto di acquisto/vendita è detto assumere una \textbf{long/short} position  \newline
 	Per trovarsi in short un broker deve decidere di prestarci la security, per poi venir ripagato in seguito \newline
-	Queste operazioni sono dette \textbf{short selling} e sono molto spesso illegali
+	Queste operazioni sono dette \textbf{short selling} e sono molto spesso illegali, o comunque regolamentate
+\subsection{Perchè shorti?}
+	L'atto di andare in short su una posizione non è chiaro all'inizio. Un esempio rende tutto più chiaro: \footnote{non includiamo calcoli di interessi}
+\begin{enumerate}
+	\item L'investitore shorta una posizione: prende in prestito da un broker X azioni per, le renderà più tardi 
+	\item L'investitore \emph{vende} le azioni: guadagna  $X*valoreAzione$
+	\item Il prezzo dell'azione eventualmente cala o sale: se cala l'investitore le compra e le rende al broker: ha cosi guadagnato un profitto; se sale ha invece perso denaro
+\end{enumerate}
 
 \newpage
 
