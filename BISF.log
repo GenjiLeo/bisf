@@ -1,0 +1,436 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.19)  30 NOV 2018 13:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**BISF.tex
+(./BISF.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/texlive/2018/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2015/03/26 v1.3n Italian support from the babel system
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+(c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+\it@lettering=\count91
+\it@doublequoteactive=\count92
+\it@ISOcompliance=\count93
+))
+(c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks18
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box28
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(c:/texlive/2018/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count107
+)
+(c:/texlive/2018/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip46
+\afterepigraphskip=\skip47
+\epigraphwidth=\skip48
+\epigraphrule=\skip49
+)
+\c@theorem=\count108
+ (./BISF.aux)
+\openout1 = `BISF.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \it@ocap on input line 24.
+LaTeX Info: Redefining \it@ccap on input line 24.
+
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen115
+\scratchbox=\box29
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen116
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks24
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1
+
+]
+Capitolo 1.
+[2
+
+] [3]
+<TableInterests.png, id=26, 669.50125pt x 217.31187pt>
+File: TableInterests.png Graphic file (type png)
+<use TableInterests.png>
+Package pdftex.def Info: TableInterests.png  used on input line 92.
+(pdftex.def)             Requested size: 360.0pt x 116.8559pt.
+ [4 <./TableInterests.png>] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+
+
+(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+ [6] [7] [8] [9] [10]
+[11] [12] [13]
+Overfull \hbox (1.80235pt too wide) in paragraph at lines 306--307
+[]\T1/cmr/m/n/10.95 riduce il ri-schio di de-cre-sce-re il va-lo-re del port-
+ []
+
+[14]
+Capitolo 2.
+[15
+
+] [16] [17] [18] [19] [20]
+Capitolo 3.
+
+Overfull \hbox (18.8239pt too wide) in paragraph at lines 503--506
+\T1/cmr/m/n/10.95 dove $\OML/cmm/m/it/10.95 P[]$ \T1/cmr/m/n/10.95 e $\OML/cmm/
+m/it/10.95 P[]$ \T1/cmr/m/n/10.95 so-no i mi-glio-ri prez-zi di bid ed ask (bid
+=> ven-di-ta, ask=>acquisto). 
+ []
+
+[21
+
+]
+<LOB.png, id=105, 679.53876pt x 324.71312pt>
+File: LOB.png Graphic file (type png)
+<use LOB.png>
+Package pdftex.def Info: LOB.png  used on input line 513.
+(pdftex.def)             Requested size: 360.0pt x 172.02281pt.
+ [22 <./LOB.png>] [23] [24]
+Overfull \hbox (3.74805pt too wide) in paragraph at lines 592--593
+[]\T1/cmr/m/n/10.95 pensiamo ai tra-der \T1/cmr/bx/n/10.95 Mar-ket-Ma-ker \T1/c
+mr/m/n/10.95 co-me ad una ti-po-lo-gia pas-si-va/reattiva
+ []
+
+[25] [26]
+Capitolo 4.
+[27
+
+]
+Overfull \hbox (12.52238pt too wide) in paragraph at lines 648--649
+[]\T1/cmr/m/n/10.95 Assumiamo di in-ve-sti-re in un'a-zio-ne Mi-cro-soft al pe-
+rio-do $\OML/cmm/m/it/10.95 t \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1$ \T1
+/cmr/m/n/10.95 con $\OML/cmm/m/it/10.95 P[]$\T1/cmr/m/n/10.95 =85\U/eurosym/m/n
+/10.95 e
+ []
+
+[28] [29] [30] [31] [32]
+Capitolo 5.
+[33
+
+] [34]
+<EfficientFrontier.png, id=147, 301.125pt x 173.64874pt>
+File: EfficientFrontier.png Graphic file (type png)
+<use EfficientFrontier.png>
+Package pdftex.def Info: EfficientFrontier.png  used on input line 899.
+(pdftex.def)             Requested size: 360.0pt x 207.61964pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35] [36 <./EfficientFrontier.png>]
+<EfficientFrontier_Triangle.png, id=155, 348.80313pt x 238.39063pt>
+File: EfficientFrontier_Triangle.png Graphic file (type png)
+<use EfficientFrontier_Triangle.png>
+Package pdftex.def Info: EfficientFrontier_Triangle.png  used on input line 955
+.
+(pdftex.def)             Requested size: 360.0pt x 246.05797pt.
+ [37 <./EfficientFrontier_Triangle.png>]
+Overfull \hbox (6.20512pt too wide) in paragraph at lines 971--974
+[]\T1/cmr/m/n/10.95 Il \T1/cmr/m/it/10.95 Mar-ket Port-fo-lio \T1/cmr/m/n/10.95
+ è il mi-glior port-fo-lio con ri-spet-to al rap-por-to $[]$ 
+ []
+
+[38]
+Overfull \hbox (35.56311pt too wide) in paragraph at lines 985--987
+\T1/cmr/m/n/10.95 Come prima,($\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; r[]$\T
+1/cmr/m/n/10.95 ) rap-pre-sen-ta l'as-set risk-free. Al-lo-ra ogni pun-to ($\OM
+L/cmm/m/it/10.95 std\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/10.
+95 )\OML/cmm/m/it/10.95 ; E\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 R[]\OT1/cmr/
+m/n/10.95 )$\T1/cmr/m/n/10.95 )
+ []
+
+[39] [40]
+<MeaningOfBeta.png, id=168, 327.2225pt x 109.91063pt>
+File: MeaningOfBeta.png Graphic file (type png)
+<use MeaningOfBeta.png>
+Package pdftex.def Info: MeaningOfBeta.png  used on input line 1062.
+(pdftex.def)             Requested size: 360.0pt x 120.92049pt.
+<TheBigBetaFormula.png, id=169, 173.64874pt x 69.76062pt>
+File: TheBigBetaFormula.png Graphic file (type png)
+<use TheBigBetaFormula.png>
+Package pdftex.def Info: TheBigBetaFormula.png  used on input line 1082.
+(pdftex.def)             Requested size: 360.0pt x 144.64305pt.
+ [41 <./MeaningOfBeta.png>] [42 <./TheBigBetaFormula.png>] (./BISF.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 31 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 3572 strings out of 492639
+ 46356 string characters out of 6133087
+ 126245 words of memory out of 5000000
+ 7358 multiletter control sequences out of 15000+600000
+ 28577 words of font info for 82 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 37i,14n,25p,813b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+1.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
+fbx2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/cm-super/sfrm1095.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/c
+m-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sf
+rm1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
+>
+Output written on BISF.pdf (43 pages, 1104095 bytes).
+PDF statistics:
+ 280 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
