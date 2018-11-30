@@ -1083,7 +1083,34 @@ $	1-w_f=w_1+...+w_N$
  % \caption{}
   \label{fig:betaformula}
 \end{figure}	
-	\newline per questo stimatore assumiamo che il rate della risk free $r_f$ rimanga costante durante il periodo
-	
-ciao
+	\newline per questo stimatore assumiamo che il rate della risk free $r_f$ rimanga costante durante il periodo in considerazione,  \newline 
+
+\newpage
+%%%% NEWPAGE
+ 
+\section{Ottimizzare il portfolio sotto diversi vincoli}
+	Avendo N asset con un vettore di ritorni $\mu=(\mu_1,...,\mu_N), \mu_i=E(R_i)$ valore atteso del ritorno,
+
+	avendo una matrice $C=[\sigma_{ij}]_{1\geq i, j \geq N} $ di Covarianza($R_i,R_j$). \newline
+	Scegliendo un livello $\gamma \subseteq [0,1]$ il problema è trovare il vettore dei pesi \textbf{w}= $(w1,...,w_N)$
+
+	che massimizza
+\begin{center}
+	$\gamma w' \mu -(1-\gamma)w'Cw$
+\end{center}
+	soggetto a
+\begin{center}
+	$\sum\limits_{i=1}^N w_i=1$
+\end{center}
+\subsection{Sui Vincoli}
+	I vincoli sono correlati al budget ed è una restrizione necessaria per risolvere il problema della media-varianza \newline
+	Ci sono diversi altri vincoli che possono essere utilizzati per adattarsi al caso, \newline
+	Ad ogni modo, l'addizione di vincoli rendono il problema computazionalmente più difficile, e per quello utiliziamo euristiche di ottimizzazione.
+\begin{description}
+	\item[Limiti superiori ed inferiori negli holding] Limitano le proporzioni di asset che possiamo tenere nel portfolio, possono modellare situazioni in cui siamo obbligati ad avere solamente posizioni di long.
+	\item[Limiti di Turnover in compravendita] Sono limiti che impongono limiti sulle variazioni che possiamo eseguire da un periodo di holding ed un altro.
+	\item[Trading Limits] Sono limiti che impongono di eseguire scambi forzati tra un periodo di holding ed un altro.
+	\item[Dimensioni del Portfolio] Si riferiscono a dimensioni massime, massimo numero di asset, che un portfolio può avere.
+\end{description}
+
 \end{document}
