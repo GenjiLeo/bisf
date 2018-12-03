@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.19)  30 NOV 2018 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.19)  2 DEC 2018 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,7 +294,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
  [6] [7] [8] [9] [10]
 [11] [12] [13]
-Overfull \hbox (1.80235pt too wide) in paragraph at lines 310--311
+Overfull \hbox (1.80235pt too wide) in paragraph at lines 311--312
 []\T1/cmr/m/n/10.95 riduce il ri-schio di de-cre-sce-re il va-lo-re del port-
  []
 
@@ -304,23 +304,22 @@ Capitolo 2.
 
 ] [16] [17] [18] [19] [20]
 Capitolo 3.
+[21
 
-Overfull \hbox (18.8239pt too wide) in paragraph at lines 514--517
+]
+Overfull \hbox (18.8239pt too wide) in paragraph at lines 521--524
 \T1/cmr/m/n/10.95 dove $\OML/cmm/m/it/10.95 P[]$ \T1/cmr/m/n/10.95 e $\OML/cmm/
 m/it/10.95 P[]$ \T1/cmr/m/n/10.95 so-no i mi-glio-ri prez-zi di bid ed ask (bid
 => ven-di-ta, ask=>acquisto). 
  []
 
-[21
-
-]
 <LOB.png, id=104, 679.53876pt x 324.71312pt>
 File: LOB.png Graphic file (type png)
 <use LOB.png>
-Package pdftex.def Info: LOB.png  used on input line 524.
+Package pdftex.def Info: LOB.png  used on input line 531.
 (pdftex.def)             Requested size: 360.0pt x 172.02281pt.
- [22 <./LOB.png>] [23] [24]
-Overfull \hbox (3.74805pt too wide) in paragraph at lines 603--604
+[22 <./LOB.png>] [23] [24]
+Overfull \hbox (3.74805pt too wide) in paragraph at lines 610--611
 []\T1/cmr/m/n/10.95 pensiamo ai tra-der \T1/cmr/bx/n/10.95 Mar-ket-Ma-ker \T1/c
 mr/m/n/10.95 co-me ad una ti-po-lo-gia pas-si-va/reattiva
  []
@@ -330,7 +329,7 @@ Capitolo 4.
 [27
 
 ]
-Overfull \hbox (12.52238pt too wide) in paragraph at lines 659--660
+Overfull \hbox (12.52238pt too wide) in paragraph at lines 666--667
 []\T1/cmr/m/n/10.95 Assumiamo di in-ve-sti-re in un'a-zio-ne Mi-cro-soft al pe-
 rio-do $\OML/cmm/m/it/10.95 t \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1$ \T1
 /cmr/m/n/10.95 con $\OML/cmm/m/it/10.95 P[]$\T1/cmr/m/n/10.95 =85\U/eurosym/m/n
@@ -345,7 +344,7 @@ Capitolo 5.
 <EfficientFrontier.png, id=146, 301.125pt x 173.64874pt>
 File: EfficientFrontier.png Graphic file (type png)
 <use EfficientFrontier.png>
-Package pdftex.def Info: EfficientFrontier.png  used on input line 910.
+Package pdftex.def Info: EfficientFrontier.png  used on input line 917.
 (pdftex.def)             Requested size: 360.0pt x 207.61964pt.
 
 
@@ -355,17 +354,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <EfficientFrontier_Triangle.png, id=154, 348.80313pt x 238.39063pt>
 File: EfficientFrontier_Triangle.png Graphic file (type png)
 <use EfficientFrontier_Triangle.png>
-Package pdftex.def Info: EfficientFrontier_Triangle.png  used on input line 966
+Package pdftex.def Info: EfficientFrontier_Triangle.png  used on input line 973
 .
 (pdftex.def)             Requested size: 360.0pt x 246.05797pt.
  [37 <./EfficientFrontier_Triangle.png>]
-Overfull \hbox (6.20512pt too wide) in paragraph at lines 982--985
+Overfull \hbox (6.20512pt too wide) in paragraph at lines 989--992
 []\T1/cmr/m/n/10.95 Il \T1/cmr/m/it/10.95 Mar-ket Port-fo-lio \T1/cmr/m/n/10.95
  è il mi-glior port-fo-lio con ri-spet-to al rap-por-to $[]$ 
  []
 
 [38]
-Overfull \hbox (35.56311pt too wide) in paragraph at lines 996--998
+Overfull \hbox (35.56311pt too wide) in paragraph at lines 1003--1005
 \T1/cmr/m/n/10.95 Come prima,($\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; r[]$\T
 1/cmr/m/n/10.95 ) rap-pre-sen-ta l'as-set risk-free. Al-lo-ra ogni pun-to ($\OM
 L/cmm/m/it/10.95 std\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/10.
@@ -377,12 +376,12 @@ m/n/10.95 )$\T1/cmr/m/n/10.95 )
 <MeaningOfBeta.png, id=167, 327.2225pt x 109.91063pt>
 File: MeaningOfBeta.png Graphic file (type png)
 <use MeaningOfBeta.png>
-Package pdftex.def Info: MeaningOfBeta.png  used on input line 1073.
+Package pdftex.def Info: MeaningOfBeta.png  used on input line 1080.
 (pdftex.def)             Requested size: 360.0pt x 120.92049pt.
 <TheBigBetaFormula.png, id=168, 173.64874pt x 69.76062pt>
 File: TheBigBetaFormula.png Graphic file (type png)
 <use TheBigBetaFormula.png>
-Package pdftex.def Info: TheBigBetaFormula.png  used on input line 1093.
+Package pdftex.def Info: TheBigBetaFormula.png  used on input line 1100.
 (pdftex.def)             Requested size: 360.0pt x 144.64305pt.
  [41 <./MeaningOfBeta.png>] [42 <./TheBigBetaFormula.png>] [43]
 (./BISF.aux) )
@@ -428,7 +427,7 @@ fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type
 m-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sf
 rm1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
 >
-Output written on BISF.pdf (44 pages, 1111159 bytes).
+Output written on BISF.pdf (44 pages, 1111594 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams

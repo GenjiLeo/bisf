@@ -86,9 +86,9 @@ r &= \text{tasso di interesse annuale}\\
 \end{align*}
 Ed è la \textbf{Formula generica per il compounding dei tassi di interesse} 
 \begin{center}
- $P_n=P_0*(1+r)^n$ t \newline
+ $P_n=P_0*(1+r)^n$  \newline
 Aumentando la frequenza di pagamenti (e.g. con interessi semestrali) la formula diventa: \newline
- $P_n=P_0*(1+{\frac {r}{m}})^{\frac{n}{m}} $ \newline
+ $P_n=P_0*(1+{\frac {r}{m}})^{nm} $ \newline
 \end{center}
 \begin{figure}[h!]
 \includegraphics[width=\linewidth]{TableInterests.png}
@@ -152,7 +152,7 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 
 \section{Storico transazioni}
 	{\tiny{Per questa sezione faremo riferimento a YahooFinance}} \newline
-	Nella lettura delle quote di una Azienda particolare sono presenti i seguenti TAG \newline
+	Nella lettura delle quote di una Azienda particolare sono presenti i seguenti \emph{TAG} \newline
 \begin{description}
 	\item[Ticker] L'id dell'azienda (AAPL=> Apple Inc.)
 	\item[Open] Il prezzo delle share dell'azienda all'apertura del mercato
@@ -171,19 +171,20 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 
 \section{Payoff e profit delle stocks}
 	Verranno utilizzate le seguenti variabili:
-\footnote{ C($S_0$)= rischio?}
+ %\footnote{ C($S_0$)= rischio?}
 \begin{align*} %%aggiungi le prossime variabili
-	S &= {\text {prezzo della stock S al tempo T con $S_0$= prezzo iniziale}}\\
-	D&= {\text {derivate al tempo T }}\\
-	T &= {\text {tempo con $S_T$ = tempo di vendita}}\\
+	S &= {\text {prezzo della stock S al tempo $\tau$ con $S_0$= prezzo iniziale}}\\
+	D&= {\text {derivate al tempo $\tau$ }}\\
+	T &= {\text {tempo con $S_\tau$ = tempo di vendita}}\\
 	r &= {\text { tasso di interesse}}\\
 \end{align*}
+	con $C(S)$ rischi derivati dall'investimento
 \begin{center}
 	$S_\tau + D_\tau - C(S_0)e^{r*\tau}$
 \end{center}
 %\newline
 \section{Stock Indices} \label{Indici:1}
-Un \textbf{indice} è una funzione matematica che misura i cambiamenti in un gruppo di \textbf{data points} \newline
+Un \textbf{indice}\footnote{https://www.investopedia.com/terms/i/index.asp} è una funzione matematica che misura i cambiamenti in un gruppo di \textbf{data points} \newline
 Negli Exchange market questi indici sono i cambiamenti nel valore di un gruppo selezionato di stocks \newline
 Sono un riferimento generale per il trend del mercato e dell'economia \newline
 Sono ovviamente non acquistabili \newline
@@ -193,8 +194,8 @@ Gli indici possono essere di diversi tipi
 	\item[Capitalization weighted] considerano il prodotto prezzo*quantita di ogni stock che compone l'indice
 \end{description}
 L'importanza degli indici sta nel poter misurare la performance degli investimenti in un determinato gruppo di azioni rispetto ad altri \newline
-In particolare il confronto tra i\textbf{rate of Benefit cumulati} che si ottengono durante l'investimento \newline
-Per una serie di prezzi $P_t$ con t>=0 il \textbf{rate of benefit o ritorno} è \newline
+In particolare il confronto tra i\textbf{ rate of Benefit cumulati} che si ottengono durante l'investimento \newline
+Per una serie di prezzi $P_t$ con t>=0 il \textbf{ rate of benefit o ritorno} è \newline
 \begin{center}
 	$R_t=({\frac{P_t}{P_{t-1}}})-1$
 \end{center}
@@ -364,6 +365,9 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	cercano degli sbilanci fra i prezzi di due mercati.
 \subsubsection{L'arbitraggio}
 	generalmente parlando, i costi di transazioni riducono considerabilmente il profitto, e nel caso di grosse disparanze nei prezzi 		altri trader se ne accorgeranno subito, diciamo quindi che le possibilità di arbitraggio sono praticamente nulle.
+
+	vi sono due tipi di arbitraggio, ma non sono trattati nel corso; \newline
+	le opportunità di arbitraggio sono generalmente poche, ed identificate in pochissimi secondi, venendo cosi "annullate" in fretta
 \newpage
 \section{Bulls/Bears} %...
 	Quando il trend del mercato è in crescita\footnote{vedi indici}, si dice che è "bullish" \newline
@@ -400,7 +404,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	quindi per ottenere una stima del valore di $S_0$ nel periodo, per esempio, di un anno vanno considerati
 \begin{align*}
 	\text{$D_1$} &= \text{Dividendi ottenuti in un anno}\\
-	\text{$S_1$} &= \text{Valore della stock in un anno}\\
+	\text{$S_1$} &= \text{Valore (stimato) della stock in un anno}\\
 	r &= \text{discount rate (?)}\\
 \end{align*}
 \begin{center}
@@ -411,7 +415,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	$S_0 =\sum\limits_{t=1}^T {\frac {D_t}{(1+r)^t}}+{\frac {S_T}{(1+r)^T}}$
 \end{center}	
 	possiamo assumere che dopo T anni il valore di $S_T$ tenda a 0  \newline
-	per questo inroduciamo il \textbf{DCF, discounted cash flow model} che rappresenta il valore di un'azione attraverso i suoi 		dividendi
+	per questo introduciamo il \textbf{DCF, discounted cash flow model} che rappresenta il valore di un'azione attraverso i suoi 		dividendi
 \begin{center}
 	$S_0 =\sum\limits_{t=1}^T {\frac {D_t}{(1+r)^t}}$
 \end{center}
@@ -446,7 +450,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	\item[Conseq. 1] Assumendo niente arbitraggio, due portfolio con valore uguale ad un tempo T avranno valore uguale 		$\forall$ t tali che t $\leq$ T
 	\item[Conseq. 2] Assumendo niente arbitraggio, siano A,B due portfolio
 
-	 con v(A,T)$\geq$ v(B,T) allora $\forall$ t $\leq$T questa proposizione sarà vera
+	 con v(A,T)$\geq$ v(B,T) allora questa proposizione sarà vera $\forall$ t $\leq$T 
 \end{description}
 
 \section{Valutazione Risk-neutral}
@@ -477,7 +481,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 \end{description}
 	Diverse ricerche hanno dimostrato che la presenza di informazioni Forti,Semi-forti forniscono un vantaggio per i trader che 		utilizzano solamente informazioni deboli. \newline
 \subsubsection{EMH e la computabilità}
-	Studi recenti hanno dimostrato che un mercato può essere definito rispetot a delle risorse di computazione R
+	Studi recenti hanno dimostrato che un mercato può essere definito rispetto	 a delle risorse di computazione R
 	questo vuol dire che si possono migliorare i profitti assegnando R risorse (tempo,memoria...) alla nostra strategia
 	questo vuole anche dire che un vantaggio può derivare da grosse facilities, vicinanza al mercato...\footnote{Per approfondire: Michael Lewis, Flash Boys. un libro sull'HighFrequency Trading} %Sei troppo povero per questo
 \newpage
@@ -500,12 +504,15 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	\item Se l'ordine non è finito ma l'offerta di LO si, il rimanente ordine viene eseguito al prossimo migliore LO(e.g compra le rimanenti stocks a \$25)
 	\item ripeti se necessario
 \end{enumerate}
-	I limit order che sono più "a fondo" nel \textbf{LOB} sono detti a fondo \newline
+	I limit order che sono più "a fondo" nel \textbf{LOB} sono detti {\tiny{giustamente}} a fondo \newline
 	un MO che viene eseguito ai LO "in fondo" è detto \textbf{walking the book}
 
-	per questo esistono MO di genere \textbf{Immediate-or-Cancel} che prevengono agli ordini di andare su offerte "terribili"
+	 %per questo esistono MO di genere \textbf{Immediate-or-Cancel} che prevengono agli ordini di andare su offerte "terribili"
+\newpage 
+
+%%%% NEWPAGE
 \subsection{LOB e il suo spread}
-	il \textbf{LOB} è definito da una griglia discreta di prezza (price-levels) \newline
+	il \textbf{LOB} è definito da una griglia discreta di prezzI (price-levels) \newline
 	La grandezza di uno step (tra un price level e l'altro) è detto tick \footnote{min. {\EUR{ 0.01}}, ma può variare tra mercati} \newline
 	definiamo la differenza tra \textbf{ask} e \textbf{bid} definita come \textbf{quoted spread}
 \begin{center}
@@ -516,7 +523,7 @@ dove $P_t^a$ e $P_t^b$ sono i migliori prezzi di bid ed ask (bid=> vendita, ask=
 	In alcuni casi bid=ask e lo spread è quindi 0,
 
 	in questi casi diciamo che il \textbf{mercato è locked} anche se questo non dura a lungo. \newline
-	Un altro oggetto utile per il \textbf{LOB} è il suo \textbf{midprice} definito come la media aritmetica tra bid e ask
+	Un altro oggetto utile per il \textbf{LOB} è il suo \textbf{midprice} definito come la media aritmetica tra BestBid e BestAsk
 
 	definiamo il midprice come il vero prezzo dell'asset.
 
@@ -595,7 +602,7 @@ dove $P_t^a$ e $P_t^b$ sono i migliori prezzi di bid ed ask (bid=> vendita, ask=
 	\item[Market maker] professionali, che facilitano exchange in asset particolari
 \end{description}
 	Definiamo anche i \textbf{Proprietary traders}, traders che scambiano con vantaggi(reali e non) su traders più piccoli, questi 		vantaggi possono essere vari: conoscenza maggiore degli asset,identificare lo swing di un asset, conoscenza di pattern \newline
-	gli \textbf{Investitori regolari} e i \textbf{Fondamentali} sono investitori che hanno un uso diretto degli asset scambiati
+	gli \textbf{Investitori regolari} e i \textbf{Fondamentali} sono investitori che hanno un uso diretto degli asset scambiati\footnote{ "Investono" per, ad esempio, avere dei risparmi}
 
 	sono individui che sperano di crescere insieme ad una corporazione, o persone che desiderano ribilanciare i loro investimenti
 
