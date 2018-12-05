@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.19)  5 DEC 2018 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.19)  5 DEC 2018 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,17 +277,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Capitolo 1.
 [2
 
-]
-Capitolo 2.
-[3
-
-] [4]
-<TableInterests.png, id=29, 669.50125pt x 217.31187pt>
+] [3]
+<TableInterests.png, id=26, 669.50125pt x 217.31187pt>
 File: TableInterests.png Graphic file (type png)
 <use TableInterests.png>
 Package pdftex.def Info: TableInterests.png  used on input line 97.
 (pdftex.def)             Requested size: 360.0pt x 116.8559pt.
- [5 <./TableInterests.png>] [6]
+ [4 <./TableInterests.png>] [5]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
 
@@ -296,19 +292,19 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
- [7] [8] [9] [10] [11]
-[12] [13] [14]
+ [6] [7] [8] [9] [10]
+[11] [12] [13]
 Overfull \hbox (1.80235pt too wide) in paragraph at lines 314--315
 []\T1/cmr/m/n/10.95 riduce il ri-schio di de-cre-sce-re il va-lo-re del port-
  []
 
-[15]
-Capitolo 3.
-[16
+[14]
+Capitolo 2.
+[15
 
-] [17] [18] [19] [20] [21]
-Capitolo 4.
-[22
+] [16] [17] [18] [19] [20]
+Capitolo 3.
+[21
 
 ]
 Overfull \hbox (18.8239pt too wide) in paragraph at lines 524--527
@@ -317,20 +313,20 @@ m/it/10.95 P[]$ \T1/cmr/m/n/10.95 so-no i mi-glio-ri prez-zi di bid ed ask (bid
 => ven-di-ta, ask=>acquisto). 
  []
 
-<LOB.png, id=107, 679.53876pt x 324.71312pt>
+<LOB.png, id=104, 679.53876pt x 324.71312pt>
 File: LOB.png Graphic file (type png)
 <use LOB.png>
 Package pdftex.def Info: LOB.png  used on input line 534.
 (pdftex.def)             Requested size: 360.0pt x 172.02281pt.
-[23 <./LOB.png>] [24] [25]
+[22 <./LOB.png>] [23] [24]
 Overfull \hbox (3.74805pt too wide) in paragraph at lines 613--614
 []\T1/cmr/m/n/10.95 pensiamo ai tra-der \T1/cmr/bx/n/10.95 Mar-ket-Ma-ker \T1/c
 mr/m/n/10.95 co-me ad una ti-po-lo-gia pas-si-va/reattiva
  []
 
-[26] [27]
-Capitolo 5.
-[28
+[25] [26]
+Capitolo 4.
+[27
 
 ]
 Overfull \hbox (12.52238pt too wide) in paragraph at lines 670--671
@@ -340,35 +336,35 @@ rio-do $\OML/cmm/m/it/10.95 t \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1$ \T1
 /10.95 e
  []
 
-[29] [30] [31] [32] [33]
-Capitolo 6.
-[34
+[28] [29] [30] [31] [32]
+Capitolo 5.
+[33
 
-] [35]
-<EfficientFrontier.png, id=149, 301.125pt x 173.64874pt>
+] [34]
+<EfficientFrontier.png, id=146, 301.125pt x 173.64874pt>
 File: EfficientFrontier.png Graphic file (type png)
 <use EfficientFrontier.png>
-Package pdftex.def Info: EfficientFrontier.png  used on input line 922.
+Package pdftex.def Info: EfficientFrontier.png  used on input line 923.
 (pdftex.def)             Requested size: 360.0pt x 207.61964pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37 <./EfficientFrontier.png>]
-<EfficientFrontier_Triangle.png, id=157, 348.80313pt x 238.39063pt>
+[35] [36 <./EfficientFrontier.png>]
+<EfficientFrontier_Triangle.png, id=154, 348.80313pt x 238.39063pt>
 File: EfficientFrontier_Triangle.png Graphic file (type png)
 <use EfficientFrontier_Triangle.png>
-Package pdftex.def Info: EfficientFrontier_Triangle.png  used on input line 978
+Package pdftex.def Info: EfficientFrontier_Triangle.png  used on input line 979
 .
 (pdftex.def)             Requested size: 360.0pt x 246.05797pt.
- [38 <./EfficientFrontier_Triangle.png>]
-Overfull \hbox (6.20512pt too wide) in paragraph at lines 994--997
+ [37 <./EfficientFrontier_Triangle.png>]
+Overfull \hbox (6.20512pt too wide) in paragraph at lines 995--998
 []\T1/cmr/m/n/10.95 Il \T1/cmr/m/it/10.95 Mar-ket Port-fo-lio \T1/cmr/m/n/10.95
  è il mi-glior port-fo-lio con ri-spet-to al rap-por-to $[]$ 
  []
 
-[39]
-Overfull \hbox (35.56311pt too wide) in paragraph at lines 1008--1010
+[38]
+Overfull \hbox (35.56311pt too wide) in paragraph at lines 1009--1011
 \T1/cmr/m/n/10.95 Come prima,($\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; r[]$\T
 1/cmr/m/n/10.95 ) rap-pre-sen-ta l'as-set risk-free. Al-lo-ra ogni pun-to ($\OM
 L/cmm/m/it/10.95 std\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/10.
@@ -376,23 +372,19 @@ L/cmm/m/it/10.95 std\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/10.
 m/n/10.95 )$\T1/cmr/m/n/10.95 )
  []
 
-[40] [41]
-<MeaningOfBeta.png, id=170, 327.2225pt x 109.91063pt>
+[39] [40]
+<MeaningOfBeta.png, id=167, 327.2225pt x 109.91063pt>
 File: MeaningOfBeta.png Graphic file (type png)
 <use MeaningOfBeta.png>
-Package pdftex.def Info: MeaningOfBeta.png  used on input line 1085.
+Package pdftex.def Info: MeaningOfBeta.png  used on input line 1086.
 (pdftex.def)             Requested size: 360.0pt x 120.92049pt.
-<TheBigBetaFormula.png, id=171, 173.64874pt x 69.76062pt>
+<TheBigBetaFormula.png, id=168, 173.64874pt x 69.76062pt>
 File: TheBigBetaFormula.png Graphic file (type png)
 <use TheBigBetaFormula.png>
-Package pdftex.def Info: TheBigBetaFormula.png  used on input line 1105.
+Package pdftex.def Info: TheBigBetaFormula.png  used on input line 1106.
 (pdftex.def)             Requested size: 360.0pt x 144.64305pt.
- [42 <./MeaningOfBeta.png>] [43 <./TheBigBetaFormula.png>] [44]
-(./BISF.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
+ [41 <./MeaningOfBeta.png>] [42 <./TheBigBetaFormula.png>] [43]
+(./BISF.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 31 ({)
@@ -435,10 +427,10 @@ fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type
 m-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sf
 rm1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
 >
-Output written on BISF.pdf (45 pages, 1112722 bytes).
+Output written on BISF.pdf (44 pages, 1112201 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

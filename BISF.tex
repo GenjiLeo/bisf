@@ -42,10 +42,10 @@
 %  \ref{Tipo:nomei}
 %sillabazione   \hypenation{co-me vuoi sil-la-ba-re una parola}  ESEGUI QUESTO DURANTE LA REVISIONE DEL TESTO
 \part{Concetti base di Finanza}
-\chapter{One Big Todo}
-\begin{enumerate}
-	\item Ogni oggetto chiamato rendimento, in italiano è chiamato RENDIMENTO
-\end{enumerate}
+%\chapter{One Big Todo}
+%\begin{enumerate}
+%	\item Ogni oggetto chiamato rendimento, in italiano è chiamato RENDIMENTO
+%\end{enumerate}
 \chapter{Financial Instruments}
 Gli strumenti finanziari utilizzati in questo corso rientrano in una grossa categoria chiamata {\bfseries Securities} \newline
 {\bfseries Securities}: sono uno strumento negoziabile che {\bfseries rappresenta un valore finanziario.} \newline
@@ -673,7 +673,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	
 	i rendimenti netti semplici di un mese e il lordo sono:
 \begin{center}
-	$R_t={\frac{90}{85}}-1 = 1,0588-1= 0,0588$ \newline
+	$1+R_t={\frac{90}{85}} = 1,0588= 0,0588$ \newline
 	$1+R_t = 1,0588$
 \end{center}
 	Abbiamo che il rendimento netto del mese è stato del 5,88\%
@@ -710,15 +710,16 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	\end{center}
 	allora il rendimento per due mesi è:
 	\begin{center}
-	$R_t(2) = {\frac {90-80}{80}} - 1 = 0,1250 $
+	$R_t(2) = {\frac {90}{80}}  = 1,1250=1+0,1250 $
 	\end{center}
 	che equivale al 12.50\% per due mesi
 
 	che equivale a sua volta al prodotto tra i due rendimenti ad un mese:
 	\begin{center}
-	$R_{t-1}= {\frac {85-80}{80}} - 1 =1,0625-1= 0,0625 $\\
-	$R_t = {\frac {90-85}{85}} - 1 =1,0588-1= 0,0588 $ \\
-	 il cui prodotto:  $1,0625*1,0588=1,1250 = 12,50\% $ 
+	$1+R_{t-1}= {\frac {85}{80}}  =1,0625-0= 1+0,0625 $\\
+	$1+R_t = {\frac {90}{85}}  =1,0588=1+ 0,0588 $ \\
+	 il cui prodotto:  $1,0625*1,0588=1,1250 = 12,50\% $ \\
+	che è uguale a $\log{(1,1250)}= \log{({\frac{90}{80}})}$ \\
 	\end{center}
 \section{rendimenti e Portfolio}
 	Consideriamo un investimento di valore V\$ su due asset A e B.
