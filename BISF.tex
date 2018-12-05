@@ -42,7 +42,10 @@
 %  \ref{Tipo:nomei}
 %sillabazione   \hypenation{co-me vuoi sil-la-ba-re una parola}  ESEGUI QUESTO DURANTE LA REVISIONE DEL TESTO
 \part{Concetti base di Finanza}
-
+\chapter{One Big Todo}
+\begin{enumerate}
+	\item Ogni oggetto chiamato rendimento, in italiano è chiamato RENDIMENTO
+\end{enumerate}
 \chapter{Financial Instruments}
 Gli strumenti finanziari utilizzati in questo corso rientrano in una grossa categoria chiamata {\bfseries Securities} \newline
 {\bfseries Securities}: sono uno strumento negoziabile che {\bfseries rappresenta un valore finanziario.} \newline
@@ -161,7 +164,7 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 	\item[Low] Minimo prezzo raggiunto tra Open e Close
 	\item[Adjusted Close] il prezzo di Close aggiustato includendo dividendi ed altre azioni che possono aver modificato il prezzo
 	\item[Volume] quantità di shares scambiate (non viene precisato se buy/sell)
-	\item[Dividend] un pagamento periodico che riflette i profitti in ritorno agli shareholder
+	\item[Dividend] un pagamento periodico che riflette i profitti in rendimento agli shareholder
 \end{description}
 	è possibile che alla chiusura e all'apertura del mercato Open e Close del giorno precedente non coincidano \newline
 	questo perchè alcuni scambi conclusi in chiusura potrebbero alterare il valore in chiusura %%%Not important
@@ -195,11 +198,11 @@ Gli indici possono essere di diversi tipi
 \end{description}
 L'importanza degli indici sta nel poter misurare la performance degli investimenti in un determinato gruppo di azioni rispetto ad altri \newline
 In particolare il confronto tra i\textbf{ rate of Benefit cumulati} che si ottengono durante l'investimento \newline
-Per una serie di prezzi $P_t$ con t>=0 il \textbf{ rate of benefit o ritorno} è \newline
+Per una serie di prezzi $P_t$ con t>=0 il \textbf{ rate of benefit o rendimento} è \newline
 \begin{center}
 	$R_t=({\frac{P_t}{P_{t-1}}})-1$
 \end{center}
-i ritorni verranno analizzati più tardi %% Reference pls
+i rendimenti verranno analizzati più tardi %% Reference pls
 \newpage
 \section{Opzioni e Derivate}
 	Un \textbf{Opzione} è un contratto tra investitori nel quale si acquista \textbf{l'opportunità} ma non \textbf{l'obbligo} 
@@ -390,7 +393,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 
 	D'altro canto se osserviamo il trend di crescita/decrescita viene naturale chiedersi se non sarebbe meglio vendere ai massimi e 	comprare ai minimi.
 \subsection{Strategie di Timing}
-	Esistono diversi metodi per sviluppare delle strategie, queste includono l'utilizzo di modelli per prevedere i ritorni %ref ai ritorni chapt1
+	Esistono diversi metodi per sviluppare delle strategie, queste includono l'utilizzo di modelli per prevedere i rendimenti %ref ai rendimenti chapt1
 	analisi strutturali dei prezzi e fondamenti dell'economia di mercato...
 
 	Per una qualunque strategia, ci si aspetta che possa battere i risultati ottenuti di chi effettua trading senza alcuna strategia
@@ -425,8 +428,8 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 \begin{center}
 	$r={\frac {D_1 + S_1}{S_0}}-1$
 \end{center}
-	questo ci dice che r è il ritorno %%%% SEE ref:returns
-	atteso della stock, oppure potrebbe essere il ritorno di un asset simile, ma risk-free \newline
+	questo ci dice che r è il rendimento %%%% SEE ref:returns
+	atteso della stock, oppure potrebbe essere il rendimento di un asset simile, ma risk-free \newline
 	in questo modo definiamo r come \textbf{il rate della capitalizzazione del mercato} oppure \textbf{il capitale del costo di 			equità} come interpretazioni precise di r
 
 \newpage 
@@ -471,7 +474,7 @@ in questo caso sottraiamo il prezzo dell'opzione dal payoff, ma considerato che 
 	il metodo generico per testare EMH consiste di
 \begin{enumerate}
 	\item Designare una strategia basata su un insieme di informazioni,
-	\item Misurare i ritorni rispetto un insieme senza queste informazioni
+	\item Misurare i rendimenti rispetto un insieme senza queste informazioni
 \end{enumerate}
 	Per la prima parte, dobbiamo specificare l'insieme di informazioni e l'efficienza di tale \textbf{informazione}:
 \begin{description}
@@ -618,16 +621,16 @@ dove $P_t^a$ e $P_t^b$ sono i migliori prezzi di bid ed ask (bid=> vendita, ask=
 
 	ordini passivi che aggiungono liquidità invece che toglierla.
 
-\chapter{Asset e ritorni}
-	\section{Ritorni semplici ad un periodo}
-	La maggior parte degli studi finanziari sono volti al ritorno, anziche il prezzo, degli asset.
+\chapter{Asset e rendimenti}
+	\section{rendimenti semplici ad un periodo}
+	La maggior parte degli studi finanziari sono volti al rendimento, anziche il prezzo, degli asset.
 \begin{description}
 	\item[] Gli Asset return sono un resoconto completo e (scale-free?) delle opportunità di investimento di un investitore
-	\item[] serie di ritorni sono statisticamente più interessanti di serie di prezzi
+	\item[] serie di rendimenti sono statisticamente più interessanti di serie di prezzi
 	\item[] vi sono diverse definizioni di asset return
 \end{description}
 Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
-\subsection{Il periodo di Holding e i ritorni}
+\subsection{Il periodo di Holding e i rendimenti}
 	Supponiamo l'acquisto di un asset a $t_0$ per $P_0$ e di venderlo a $t_1$ a prezzo $P_1$
 
 	Supponendo l'assenza di dividendi tra i due periodi allora definiamo il rate of return come la variazione percentuale
@@ -638,56 +641,57 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \end{center}
 	definiamo il tempo tra $t_0$ e $t_1$ come \textbf{holding period}  
 
-	mentre $R(t_0,t_1)$ come \textbf{ritorni dell'holding period}.
+	mentre $R(t_0,t_1)$ come \textbf{rendimenti dell'holding period}.
 
-	L\textbf{holding period} può essere un qualsiasi intervallo temporale.
+	L'\textbf{holding period} può essere un qualsiasi intervallo temporale.
 
-\section{Ritorni semplici}
-	definizione di \textbf{Ritorni lordi(?)}:
+\section{rendimenti semplici}
+	definizione di \textbf{rendimenti lordi}:
 
-	il totale dei ritorni prima di dedurre qualsiasi fee o spesa necessaria, i ritorni lordi sono visti su uno specifico
+	il totale dei rendimenti prima di dedurre qualsiasi fee o spesa necessaria, i rendimenti lordi sono visti su uno specifico
 
 	periodo temporale: un mese, un quadrimestre, un anno. 
 
-	sono generalmente i ritorni promessi da, per esempio, una pubblicità. \newline
+	sono generalmente i rendimenti promessi da, per esempio, una pubblicità. \newline
  	siano $P_t$ il prezzo nominale di un asset alla fine del mese t, che non paga divididendi
 
 	$P_t-1$ il prezzo alla fine del mese t-1. \newline
 
 \begin{center}
-	{\emph{ritorni netti in un investimento tra t-1 e t}}= $R_{t-1,t}={\frac {P_t - P_{t-1}}{P_{t-1}}}= \%\Delta P_t$
+	{\emph{rendimenti netti in un investimento tra t-1 e t}}= $R_{t-1,t}={\frac {P_t - P_{t-1}}{P_{t-1}}}= \%\Delta P_t$
 \end{center}	
 	che possiamo riscrivere come
 \begin{center}
  	$1+R_{t-1,t}={\frac {P_t}{P_{t-1}}}$
 \end{center}
-	Il ritorno lordo di un mese è l'interpretazione del valore di {\EUR{1.00}} nell'asset per un mese.
+	Il rendimento lordo di un mese è l'interpretazione del valore di {\EUR{1.00}} nell'asset per un mese.
+	Il rendimento netto di un mese è l'interpetazione della crescita in percentuale dell'asset per un mese.
 \subsection{Esempio}
 	Assumiamo di investire in un'azione Microsoft al periodo $t-1$ con $P_{t-1}$={\EUR{85}} e di venderla il mese successivo
 
 	al prezzo $P_t$={\EUR{90}} allora
 	
-	i ritorni netti semplici di un mese e il lordo sono:
+	i rendimenti netti semplici di un mese e il lordo sono:
 \begin{center}
 	$R_t={\frac{90}{85}}-1 = 1,0588-1= 0,0588$ \newline
 	$1+R_t = 1,0588$
 \end{center}
-	Abbiamo che il ritorno netto del mese è stato del 5,88\%
+	Abbiamo che il rendimento netto del mese è stato del 5,88\%
 
 	oppure possiamo dire che l'investimento di 1 è cresciuto in 1,0588
-\section{Ritorni compunded e Multi-Periodo} \footnote{check con Candelieri per la correttezza}
-	definiamo che nel \textbf{periodo di k mesi} il ritorno semplice è nientemeno che il prodotto dei periodi mensili:
+\section{rendimenti compunded e Multi-Periodo} \footnote{check con Candelieri per la correttezza}
+	definiamo che nel \textbf{periodo di k mesi} il rendimento semplice è nientemeno che il prodotto dei periodi mensili:
 
-	\textbf{ritorno netto di un periodo k-simo}	$R_t[k]= {\frac{P_t-P_{t-k}}{P_{t-k}}} $
+	\textbf{rendimento netto di un periodo k-simo}	$R_t[k]= {\frac{P_t-P_{t-k}}{P_{t-k}}} $
 
-	\textbf{ritorno semplice di due mesi:}= ${\frac {P_t}{P_{t-2}}} - 1 $
+	\textbf{rendimento semplice di due mesi:}= ${\frac {P_t}{P_{t-2}}} - 1 $
 
-	\textbf{il ritorno lordo su k mesi } è definito come il prodotto dei primi k-esimi ritorni lordi
+	\textbf{il rendimento lordo su k mesi } è definito come il prodotto dei primi k-esimi rendimenti lordi
 \begin{center}
 	${\prod\limits_{j=0}^{k-1}({1+R_{t-j}}})$
 \end{center}
 \subsection{Continous Compound Return}
-	eseguendo  il \textbf{continuos compounding} su un asset possiamo computare facilmente i ritorni
+	eseguendo  il \textbf{continuos compounding} su un asset possiamo computare facilmente i rendimenti
 
 	su un periodo di tempo
 \begin{center}
@@ -704,19 +708,19 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	$P_{t-1}$ = 85 \\
 	$P_{t-2}$ = 80 \\
 	\end{center}
-	allora il ritorno per due mesi è:
+	allora il rendimento per due mesi è:
 	\begin{center}
 	$R_t(2) = {\frac {90-80}{80}} - 1 = 0,1250 $
 	\end{center}
 	che equivale al 12.50\% per due mesi
 
-	che equivale a sua volta al prodotto tra i due ritorni ad un mese:
+	che equivale a sua volta al prodotto tra i due rendimenti ad un mese:
 	\begin{center}
 	$R_{t-1}= {\frac {85-80}{80}} - 1 =1,0625-1= 0,0625 $\\
 	$R_t = {\frac {90-85}{85}} - 1 =1,0588-1= 0,0588 $ \\
 	 il cui prodotto:  $1,0625*1,0588=1,1250 = 12,50\% $ 
 	\end{center}
-\section{Ritorni e Portfolio}
+\section{rendimenti e Portfolio}
 	Consideriamo un investimento di valore V\$ su due asset A e B.
 
 	sia $x_A$ e $x_B$ la frazione di V che i due asset rappresentano,
@@ -729,9 +733,9 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	un insieme di \textbf{investment share} definisce il portfolio,
 	quando i valori degli investment share sono negativi siamo in short selling.
 \subsection{Simple Returns}
-	definiamo $R_{A,t}$ e $R_{B,t}$ come i ritorni semplici mensili degli asset A e B
+	definiamo $R_{A,t}$ e $R_{B,t}$ come i rendimenti semplici mensili degli asset A e B
 
-	vogliamo definire i ritorni del portfolio p definito da ($x_A,x_B$) \footnote{Per dimostrazioni vedi slide}
+	vogliamo definire i rendimenti del portfolio p definito da ($x_A,x_B$) \footnote{Per dimostrazioni vedi slide}
 
 \begin{center}
 	$R_{p,t} = x_A R_{A,t} + x_B R_{B,t}$
@@ -739,7 +743,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \section{I dividendi}
 	assumendo che un dato asset paghi dividendi tra t-1 e t  abbiamo il valore dei dividendi al tempo t: $D_t$
 	
-	allora il calcolo dei ritorni diventa:
+	allora il calcolo dei rendimenti diventa:
 
 \begin{center}
 	$R_t^{total} = {\frac{P_t + D_t - P_{t-1}}{P_{t-1}}}$ = ${\frac {P_t - P_{t-1}}{P_{t-1}}}$
@@ -747,38 +751,39 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \end{center}
  	definiamo i \textbf{capital gain}: guadagno in capitale: identifica il guadagno ottenuto dalla compravendita di strumenti finanziari,
 
+	definiamo invece i \textbf{dividend yield} come la percentuale totale di guadagno ottenuta dai dividendi
 	è la differenza tra prezzo di acquisto e di vendita di uno strumento finanziario.
 
 	è tassato. \newline
-	Se un asset paga dividendi periodici la definizione dei ritorni di un asset è modificata in
+	Se un asset paga dividendi periodici la definizione dei rendimenti di un asset è modificata in
 \begin{center}
 	$1+R_t^{total}= {\frac {P_t + D_t}{P_{t-1}}} $
 \end{center}
 
 \section{Inflazione}
-	I calcoli sui ritorni finora effettuati sono considerati \textbf{nominali} o prezzi attuali degli asset
+	I calcoli sui rendimenti finora effettuati sono considerati \textbf{nominali} o prezzi attuali degli asset
 
-	I ritorni calcolati su prezzi nominali sono detti \textbf{ritorni nominali} \newline
-	I \textbf{veri} ritorni su un asset in un \textbf{horizon} considerano la crescita dei prezzi su quell'horizon (?)
+	I rendimenti calcolati su prezzi nominali sono detti \textbf{rendimenti nominali} \newline
+	I \textbf{veri} rendimenti su un asset in un \textbf{horizon} considerano la crescita dei prezzi su quell'horizon (?)
 	
-	se il nominal price cresce più in fretta del prezzo generico allora i ritorni nominali saranno maggiori dell'inflazione,
+	se il nominal price cresce più in fretta del prezzo generico allora i rendimenti nominali saranno maggiori dell'inflazione,
 	
-	 ed il nostro ritorno reale sarà positivo
+	 ed il nostro rendimento reale sarà positivo
 
-	Viceversa se cresce più lentamente il nostro ritorno sarà negativo in quanto il valore dei ritorni sarà minore dell'inflazione. 		\newline
-	La \textbf{computazione dei ritorni reali} è un processo a due step:
+	Viceversa se cresce più lentamente il nostro rendimento sarà negativo in quanto il valore dei rendimenti sarà minore dell'inflazione. 		\newline
+	La \textbf{computazione dei rendimenti reali} è un processo a due step:
 \begin{enumerate}
 	\item De-inflaziona il prezzo nominale con il prezzo generico
-	\item Computa i ritorni semplici sul prezzo De-inflazionato
+	\item Computa i rendimenti semplici sul prezzo De-inflazionato
 \end{enumerate}
-\subsection{Calcolo per i ritorni reali}
+\subsection{Calcolo per i rendimenti reali}
 	siano $P_t$ il prezzo nominale di un asset al tempo t e $CPI_t$ un indice del prezzo generico.
 	
 	alora il prezzo reale al tempo t sarà
 \begin{center}
 	$P_t^{real} = {\frac {P_t}{CPI_t}}$	
 \end{center}
-	una volta ottenuto il prezzo reale sarà possibile calcolare i ritorni come al solito. 
+	una volta ottenuto il prezzo reale sarà possibile calcolare i rendimenti come al solito. 
 \subsection{Calcolo Inflazione}
 	Possiamo anche definire l'inflazione al tempo t come:
 \begin{center}
@@ -788,11 +793,11 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \newpage
 
 %%%% NEWPAGE
-\section{Ritorni annuali}
-	In genere convertiamo i ritorni in ritorni annuali per stabilire delle basi per effettuare confronti:
-	Compound Annual Gross Return(CAGR), o Ritorni annuali Lordi,
+\section{rendimenti annuali}
+	In genere convertiamo i rendimenti in rendimenti annuali per stabilire delle basi per effettuare confronti:
+	Compound Annual Gross Return(CAGR), o rendimenti annuali Lordi,
 
-	Compound Annual net Return(CANR), o Ritorni annuali Netti\footnote{non utilizziamo $R_A$ = 12$R_m$ perchè assumiamo ritorni compounded}
+	Compound Annual net Return(CANR), o rendimenti annuali Netti\footnote{non utilizziamo $R_A$ = 12$R_m$ perchè assumiamo rendimenti compounded}
 \begin{center}
 	$CAGR = 1+R_A = 1+R_T(12) = (1+R_m)^{12} $ \\
 	$CANR = R_A = (1+R_m)^12 - 1 $ \\
@@ -800,14 +805,14 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \subsection{Esempio}
 	Supponiamo che $R_t$ per una stock Microsoft sia 5,88\%.
 
-	se assumiamo vero questo ritorno per 12 mesi allora l'annuale è: \newline
+	se assumiamo vero questo rendimento per 12 mesi allora l'annuale è: \newline
 	$R_A = (1,0588)^12 - 1 = 1,9850 - 1 = 0,9850 $ 
 
 	oppure 98,50\% annuale.
-\section{Ritorni medi}
-	Per un investimento su un dato horizon, ci interessa computare la misura dei ritorni medi su quell'horizon
+\section{rendimenti medi}
+	Per un investimento su un dato horizon, ci interessa computare la misura dei rendimenti medi su quell'horizon
 
-	consideriamo una sequenza di investimenti mensili su un anno con ritorni mensili abbiamo due possibilità
+	consideriamo una sequenza di investimenti mensili su un anno con rendimenti mensili abbiamo due possibilità
 \begin{enumerate}
 	\item Media Aritmetica: $ \bar{R} = {\frac {1}{12}}(R_1 + R_2 ... + R_12) $ che può essere errata
 	\item Media Geometrica: $(1+ \bar{R})^{12} = (1+R_A) = (1+R_1)(1+R_2)...(1+R_{12}) $
@@ -818,25 +823,25 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 
 \end {enumerate}
 
-\section{Annualizzare i ritorni}
-	In genere differenti horizon sono annualizzati: convertiti in ritorni annuali per confrontarli con altri investimenti. \newline
+\section{Annualizzare i rendimenti}
+	In genere differenti horizon sono annualizzati: convertiti in rendimenti annuali per confrontarli con altri investimenti. \newline
 	Il processo di annualizzazione dipende dall'holding period dell'investimento e da una assunzione sul compounding.
 
  	Questo è un processo semplice per horizon annuali, ma richiede di fare assunzioni particolari su periodi più brevi:
 
-	Avrò lo stesso ritorno $R_t$ per ogni periodo dell'anno? allora possiamo utilizzare le formule per il netto e il lordo precedenti.
+	Avrò lo stesso rendimento $R_t$ per ogni periodo dell'anno? allora possiamo utilizzare le formule per il netto e il lordo precedenti.
  \newpage
   
 \chapter{Ottimizzazione Portfolio}
 	nel 1952 viene presentata da \textbf{Markowitz Harry} le basi per selezionare un portfolio:
 
 \begin{center}
-	{\emph{Una combinazione di asset che in un dato periodo di tempo produce ritorni maggiori ad un mischio minore}}
+	{\emph{Una combinazione di asset che in un dato periodo di tempo produce rendimenti maggiori ad un mischio minore}}
 \end{center}
 
 	vi sono due step da seguire:
 \begin{enumerate}
-	\item Identificare la combinazione di asset ottimali rispetto a \textbf{rischio e ritorno} attesi per creare un portfolio
+	\item Identificare la combinazione di asset ottimali rispetto a \textbf{rischio e rendimento} attesi per creare un portfolio
 	\item Scegliere il miglior portfolio che rispecchia la \textbf{funzione di utilità dell'investitore}
 \end{enumerate}
 	La \textbf{funzione di utilità dell'investitore} riguarda limiti,tolleranza al rischio,tipologia e numero di asset desiderati e
@@ -848,9 +853,9 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \section{Il modello media-varianza}
 	Dalla ipotesi di Markowitz per la selezione del modello deriviamo che:
 
-	I ritorni attesi sono "\textbf{buoni}"
+	I rendimenti attesi sono "\textbf{buoni}"
 
-	La varianza, nei ritorni attesi sono da \textbf{evitarsi}. \newline
+	La varianza, nei rendimenti attesi sono da \textbf{evitarsi}. \newline
 	Cerchiamo di dimostrare matematicamente l'importanza nella \textbf{diversificazione del portfolio}. 
 \subsection{Reminder sui Portfolio return}
 	In genere, per un dato portfolio di n asset con investment share $x_i$ tale che $x_1+x_2...+x_n = 1$ abbiamo che
@@ -865,7 +870,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	$\sigma_w^2 = Var(R_t^w) =  \sum\limits_{i=1}^N  \sum\limits_{j=1}^N w_i w_j \sigma_i \sigma_j \rho_{i,j} =  \sum		\limits_{i=1}^N  \sum\limits_{j=1}^N w_i w_j \sigma_i \sigma_j  $ 
 \end{center}
 \subsection{Considerazioni}
-	\textbf{Caso 1} il ritorno di N asset su un portfolio è incorrelato a coppie:
+	\textbf{Caso 1} il rendimento di N asset su un portfolio è incorrelato a coppie:
 
 	\emph{Maggiore è il numero di asset incorrelato, minore è il rischio del portfolio}. 
 
@@ -885,7 +890,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 
 	La selezione di un portfolio di Markowitz si riduce a:
 \begin{center}
-	\emph{ Trova i pesi  $w=(w_1,w_2,w_3,...,w_N)$ tali che, per un tasso di ritorno $r^*$, il portfolio \textbf{w} ha ritorni 		$r^*$  con varianza minimale }
+	\emph{ Trova i pesi  $w=(w_1,w_2,w_3,...,w_N)$ tali che, per un tasso di rendimento $r^*$, il portfolio \textbf{w} ha rendimenti 		$r^*$  con varianza minimale }
 \end{center}
 	La varianza minima per un dato portfolio si collega ai problemi di ottimizazione: \footnote{Candelieri? w'}
 \begin{center}
@@ -903,7 +908,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 
 	Una volta risolto il sistema lineare otterremo i pesi dei singoli w con una media \textbf{r*} e varianza minima.
 
-	Questa soluzione è detta \textbf{efficiente} in quanto è IL portfolio con ritorni attesi r* e varianza minima rispetto ad altri 			portfolii con lo stesso valore atteso.
+	Questa soluzione è detta \textbf{efficiente} in quanto è IL portfolio con rendimenti attesi r* e varianza minima rispetto ad altri 			portfolii con lo stesso valore atteso.
 \section{Frontiera di efficienza}
 	Per un insieme di N assets che costituiscono un portfolio, vanno considerati i possibili \textbf{problemi quadratici} per 			ottenere
 	una definizione efficiente dei pesi w. \newline
@@ -932,7 +937,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	Prestare denaro significa avere un asset risk-free con un peso w positivo
 
 	Ricevere denaro significa avere un asset risk-free con un peso w negativo. \newline
-	Sia $r_f=r_0* \tau$ la rata risk-free,o ritorno, nel periodo di tempo $\tau$.
+	Sia $r_f=r_0* \tau$ la rata risk-free,o rendimento, nel periodo di tempo $\tau$.
 
 	Un portfolio che consiste solo di questo asset ha valore medio $r_f$ e varianza 0.
 
@@ -994,7 +999,7 @@ $	1-w_f=w_1+...+w_N$
 \end{center} 
 	il \textbf{Market Portfolio} è il punto che massimizza $\tan{\theta}$, questo da la inclinazione della CML computata al punto di tangenza della frontiera rischiosa di efficienza  \footnote{Candelieri(??)}.
 
-	Dall'equazione vediamo che il MarketPortfolio da il massimo rapporto (ritorno/rischio); i pesi di tale soluzione massimizzano 
+	Dall'equazione vediamo che il MarketPortfolio da il massimo rapporto (rendimento/rischio); i pesi di tale soluzione massimizzano 
 	$\tan\theta$ e sono in proporzione al loro peso sul mercato.
 
 \newpage
@@ -1032,7 +1037,7 @@ $	1-w_f=w_1+...+w_N$
 	è sempre vera.  \newline
 	Riassumendo, in un mondo basato sulla media-varianza MarkoWitziana, il meglio che si può fare è: \newline
 	 allocare  una porzione dell'investimento in UN  asset risk-free, e tutto il resto nel Market Portfolio, \newline
-	garantendo cosi il miglior rapporto di ritorno/variabilità. 
+	garantendo cosi il miglior rapporto di rendimento/variabilità. 
 
 \newpage
 %%%% NEWPAGE
@@ -1041,7 +1046,7 @@ $	1-w_f=w_1+...+w_N$
 	è desiderabile avere un equilibrio simile tra rischio e reward di un asset rischioso rispetto al portfolio in cui voglio inserirlo. \newline
 	L'equilibrio tra asset e un portfolio è dato dal \textbf{CAPM} \emph{Capital Asset Pricing Model}.
 \begin{theorem}[Teorema CAPM]
-	Sia $E(R_M)$ i ritorni attesi del \emph{Market Portfolio}, $\sigma_M = std(R_M)$ la sua deviazione standard, e $r_f$ il risk-free return in un periodo di tempo $\tau$ \newline
+	Sia $E(R_M)$ i rendimenti attesi del \emph{Market Portfolio}, $\sigma_M = std(R_M)$ la sua deviazione standard, e $r_f$ il risk-free return in un periodo di tempo $\tau$ \newline
 	Sia $E(R_i)$ il valore atteso di un asset i, $\sigma_i$ la sua deviazione standard, e $\sigma_{iM}=CoV(R_i,R_M)$ la covarianza tra $R_i$ e $R_M$
 
 	allora:
@@ -1050,14 +1055,14 @@ $	1-w_f=w_1+...+w_N$
 	$ \beta_i= {\frac {\sigma_{iM}}{\sigma_M^2}} = {\frac {Cov(R_i,R_M)}{Var(R_M)}} $
 \end{center}
 \end{theorem}
-	il CAPM fa si che il valore atteso di ritorno dell'asset i, $E(R_i)-r_f$, conosciuto anche come il premio del rischio, è proporzionale  \newline
-	di un fattore $\beta_i$ ai valori attesi di ritorno del Market Portfolio, $E(R_M)-r_f$ o il premio del market. \newline
+	il CAPM fa si che il valore atteso di rendimento dell'asset i, $E(R_i)-r_f$, conosciuto anche come il premio del rischio, è proporzionale  \newline
+	di un fattore $\beta_i$ ai valori attesi di rendimento del Market Portfolio, $E(R_M)-r_f$ o il premio del market. \newline
 	Il coefficiente $\beta_i$ anche conosciuto come \emph{beta dell'asset i} è la percentuale del premio dell'asset sul premio del market.
 \subsection{CAPM come modello di pricing}
 	Supponendo di voler sapere il prezzo P di un asset il cui payoff dopo un periodo $\tau$ è un valore casuale $P_\tau$ \newline
-	Allora il rate di ritorno dell'asset in un periodo $\tau$ è $R_\tau = (P_\tau /P) - 1$,
+	Allora il rate di rendimento dell'asset in un periodo $\tau$ è $R_\tau = (P_\tau /P) - 1$,
 	
-	per CAPM il valore atteso $R_\tau$ è relativo al rate di ritorni del mercato nello stesso periodo di tempo.
+	per CAPM il valore atteso $R_\tau$ è relativo al rate di rendimenti del mercato nello stesso periodo di tempo.
 \begin{center}
 	$E(R_\tau)={\frac {E(P_\tau)}{P}}-1 = r_f + \beta(E(R_M)-r_f) $ \\
 	con $\beta$ beta dell'asset che stiamo analizzando
@@ -1068,7 +1073,7 @@ $	1-w_f=w_1+...+w_N$
 \end{center}
  	che è una generalizzazione della formula del discounted cash flow per asset risk free, includendo asset rischiosi.
 \subsection{Il significato di Beta}
-	Formalmente, il beta di un asset rappresenta la dipendenza lineare dei ritorni dell'asset e dei ritorni del mercato in proporzione alla volatilità del mercato:
+	Formalmente, il beta di un asset rappresenta la dipendenza lineare dei rendimenti dell'asset e dei rendimenti del mercato in proporzione alla volatilità del mercato:
 \begin{center}
 	\Large{$ \beta_i = {\frac {Cov(R_i,R_M)}{Var(R_M)}} = \rho(R_i,R_M){\frac {\sigma_i}{\sigma_M}}$}
 \end{center}
@@ -1107,7 +1112,7 @@ $	1-w_f=w_1+...+w_N$
 %%%% NEWPAGE
  
 \section{Ottimizzare il portfolio sotto diversi vincoli}
-	Avendo N asset con un vettore di ritorni $\mu=(\mu_1,...,\mu_N), \mu_i=E(R_i)$ valore atteso del ritorno,
+	Avendo N asset con un vettore di rendimenti $\mu=(\mu_1,...,\mu_N), \mu_i=E(R_i)$ valore atteso del rendimento,
 
 	avendo una matrice $C=[\sigma_{ij}]_{1\geq i, j \geq N} $ di Covarianza($R_i,R_j$). \newline
 	Scegliendo un livello $\gamma \subseteq [0,1]$ il problema è trovare il vettore dei pesi \textbf{w}= $(w1,...,w_N)$
