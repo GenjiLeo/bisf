@@ -181,7 +181,7 @@ Utili provider di quote sulle azioni sono Yahoo Finance e Google Finance (Yahoo>
 	T &= {\text {tempo con $S_\tau$ = tempo di vendita}}\\
 	r &= {\text { tasso di interesse}}\\
 \end{align*}
-	con $C(S)$ rischi derivati dall'investimento
+	con $C(S)$ valore di un risk-free(controlla)
 \begin{center}
 	$S_\tau + D_\tau - C(S_0)e^{r*\tau}$
 \end{center}
@@ -664,7 +664,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \begin{center}
  	$1+R_{t-1,t}={\frac {P_t}{P_{t-1}}}$
 \end{center}
-	Il rendimento lordo di un mese è l'interpretazione del valore di {\EUR{1.00}} nell'asset per un mese.
+	Il rendimento lordo di un mese è l'interpretazione del valore di {\EUR{1.00}} nell'asset per un mese.\newline
 	Il rendimento netto di un mese è l'interpetazione della crescita in percentuale dell'asset per un mese.
 \subsection{Esempio}
 	Assumiamo di investire in un'azione Microsoft al periodo $t-1$ con $P_{t-1}$={\EUR{85}} e di venderla il mese successivo
@@ -701,6 +701,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \begin{center}
 	$r_t[k]= \log{(1+R_t[k])} =\log{[(1+R_t)(1+R_{t-1})  ...(1+R_{t-k+1})]}$
 \end{center}
+	ed è detto ritorno logaritmico,ovvero il logaritmo del ritorno lordo
 \subsection{Esempio}
 	ritornando all'esempio precedente con
 	\begin{center}
@@ -719,7 +720,7 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 	$1+R_{t-1}= {\frac {85}{80}}  =1,0625-0= 1+0,0625 $\\
 	$1+R_t = {\frac {90}{85}}  =1,0588=1+ 0,0588 $ \\
 	 il cui prodotto:  $1,0625*1,0588=1,1250 = 12,50\% $ \\
-	che è uguale a $\log{(1,1250)}= \log{({\frac{90}{80}})}$ \\
+	il cui ritorno compounded è $\log{(1,1250)}= \log{({\frac{90}{80}})}=0,051$ \\
 	\end{center}
 \section{rendimenti e Portfolio}
 	Consideriamo un investimento di valore V\$ su due asset A e B.
@@ -866,6 +867,8 @@ Definiamo $P_t$ come prezzo di un asset in un periodo t(no dividendi). \newline
 \end{center}
 
 	Definiamo a questo punto il \textbf{Valore Medio} o \textbf{Valore atteso} ad un tempo \textbf{t} di un portfolio \textbf{w} E la sua varianza \footnote{ $\rho =$ coefficente di correlazioene tra due asset}
+
+$w_i$ è l'investment share \%	
 \begin{center}
 	$\mu_w = E(R_t^w) =  \sum\limits_{i=1}^N w_i E(R_{i,t}) $ 
 	$\sigma_w^2 = Var(R_t^w) =  \sum\limits_{i=1}^N  \sum\limits_{j=1}^N w_i w_j \sigma_i \sigma_j \rho_{i,j} =  \sum		\limits_{i=1}^N  \sum\limits_{j=1}^N w_i w_j \sigma_i \sigma_j  $ 
