@@ -12,7 +12,7 @@
 \usepackage{graphicx}
 \usepackage{dirtytalk}
 \usepackage{epigraph}
-
+\usepackage{mathrsfs}
 \newtheorem{theorem}{Theorem}
 %PREAMBLE
 \hyphenation{Maturity}
@@ -23,6 +23,9 @@
 
 \begin{document}
 \maketitle
+
+
+\tableofcontents{}
 %This is a test for commands and is not part of the full text
 %\%newline
 %\TeX
@@ -60,6 +63,8 @@ Le Securities sono, in genere, scambiate a un exchange market, un mercato finanz
 
 %%%% NEWPAGE
 \section{Computing profit}
+
+
 è bene definire un paio di termini:
 \begin {description}
 \item[Bond] è un contratto a lungo termine tra due soggetti.
@@ -97,8 +102,8 @@ Aumentando la frequenza di pagamenti (e.g. con interessi semestrali) la formula 
 \includegraphics[width=\linewidth]{TableInterests.png}
 \caption {Tabella raffigurante la crescita dei valori al crescere di m}
 \end{figure}
-\newpage
 
+\newpage
 %%%% NEWPAGE
 \section {Payoff e profit dei bond}
 il \textbf{Payoff} di una security è il suo valore al raggiungimento della  \textbf{Maturity } 
@@ -1139,5 +1144,142 @@ $	1-w_f=w_1+...+w_N$
 	\item[Trading Limits] Sono limiti che impongono di eseguire scambi forzati tra un periodo di holding ed un altro.
 	\item[Dimensioni del Portfolio] Si riferiscono a dimensioni massime, massimo numero di asset, che un portfolio può avere.
 \end{description}
+  %%
+ \newpage
+
+%%%% NEWPAGE
+\section{Portfolio Selection}
+
+	Sappiamo che quando un portfolio devia dai rendimenti attesi le sue posizioni vanno riviste, aumentando/diminuendo i loro pesi nel portfolio per re-allinearlo con gli obbiettivi dell'investitore,
+
+	Il nostro problema è \emph{come} reallocare le nostre posizioni, incrementando i guadagni futuri.
+
+	Per modellare le soluzioni di questo problema ci concentriamo su una situazione di un investiroe che è \emph{long in m securities} e con un orizzonte di investimento predeterminato, assumeremo l'assenza di costi di transazione e che l'unico limite per l'investitore è il suo budget.
+
+\vspace*{1,5cm}
+	Il tempo che intercorre tra il presente e la fine di un portfolio è diviso in \emph{n} periodi di trading, limitati da degli istanti di tempo t=0,...,n.
+
+	Alla fine di ogni periodo [t-1,t] la proporzione di denaro investita in ogni posizione è rivisitata, con l'obbiettivo di massimizzare il guadagno alla data finale.
+
+	Per rappresentare i cambiamenti nel prezzo del mercato in un dato periodo utilizziamo il \emph{vettore di mercato}
+\begin{center}
+	$x_t=(x_{t1},...,x_{tm})$
+\end{center}
+	Sono una sequenza di relazioni sui prezzi, ad esempio i ritorni netti, per il trading period delle m securities:
+
+	ogni $x_{ti}$ è il rapporto del prezzo di close con quello di open della i-esima security nel t-esimo periodo
+
+	La distribuzione del denaro tra le \emph{m} securities è rappresentata dal vettore \emph{w} del portfolio
+\begin{center}
+	$w_t=(w_{t1},...,w_{tm})$
+\end{center}
+	La cui somma di entrate non negative deve essere 1
+
+	Possiamo quindi dire che l'investimento sul portfolio \textbf{$w_t$} produce un aumento di denaro, rispetto al vettore di mercato $x_t$ come segue:
+
+\begin{center}
+	$w_t' x_t = \sum\limits_{j=1}^m w_{t,j}x_{t,j}$
+\end{center}
+	Una sequenza di \emph{n} investimenti su una selezione di \emph{n} vettori portfolii $w^n=(w_1,...,w_n)$ risulta in un investimento
+\begin{center}$
+	S _ { R } \left( \boldsymbol { w } ^ { n } , \boldsymbol { x } ^ { n } \right) = \prod _ { t = 1 } ^ { n } w _ { t } ^ { \prime } \cdot \boldsymbol { x } _ { t } = \prod _ { t = 1 } ^ { n } \sum _ { j = 1 } ^ { m } w _ { t } \boldsymbol { x } _ { t j }$
+\end{center}
+
+	con $x^n$ l'eventuale vettore di prezzi relativi ai corrispondenti n trading period considerati
+
+	la quantità $S_n(w^n,x^n)$ è detto il wealth factor ottenuto da $w^n$ rispetto ai vettori di mercato $x^n$
+
+\section{Strategie di selezione Portfolio}
+	Una strategia di selezione Portfolio è una strategia utilizzata per \textbf{n} periodi di trading, è una sequenza di \textbf{n} scelte al vettore dei portfolii $w^n$ dove ogni $w_t\in W$. Un algoritmo di selezione portfolio è un algoritmo che produce una strategia di portfolio.
+
+	Sia ALG il nostro algoritmo scelto, possiamo accoppiarlo con il suo output per denotare il wealth factor di ALG rispetto al vettore di mercato $x^n$:
+\begin{center}
+	$S_n(ALG,x^n)$
+\end{center}
+\subsection{Valutare la performance di una strategia}
+	Per valutare la nostra strategia la procedura più comune è il confronto di wealth factor(benchmark strategy)
+
+	Un alternativa è un confronto con una  \emph{crescita esponenziale} definita come:
+\begin{center}
+	$W_n(ALG,x^n)= {\frac{1}{n}} {\ln{(S_n}{ALG,x^n)}}$
+\end{center}
+
+	Possiamo allora ridefinire il wealth factor $S_n(ALG,x^n)$ in termini esponenziali come:
+\begin{center}
+	 $S_n(ALG,x^n) = exp(nW_n(ALG,x^n)$ \footnote{WTF}
+\end{center}
+\section{Portfolii Ribilanciati Costantemente}
+	Un Portfolio Costantemente Ribilanciato \emph{(CRP)} è una strategia di mercato che utilizza la stessa distribuzione di pesi per ogni trading period.
+	
+	Sia $CRP_w$ la strategia CRP con pesi fissati $w=(w_1,...,w_m)$
+	
+	Allora il wealth factor di questa strategia sarà
+	
+	\begin{center}$
+	S _ { n } \left( \mathrm { CRP } _ { w } , x ^ { n } \right) = \prod _ { t = 1 } ^ { n } \sum _ { j = 1 } ^ { m } w _ { j } x _ { t j }$
+\end{center}	 
+
+Dato un vettore di mercato $x^n$ il miglior CRP è dato dalla soluzione $\emph{w*}$ del problema di ottimizzazione definito come:
+
+$w*$ che massimizza $S_n(CRP_w,x^n)$ su tutti i portfolio \emph{w} con m valori reali positivi fissati applicati alla sequenza degli n vettori di mercato $x^n$
+
+Ovvero:
+
+\begin{center}$
+\max _ { w \in \mathscr { W } } S _ { n } \left( \mathrm { CRP } _ { w } , x ^ { n } \right)$
+\end{center}
+
+La strategia CRP ottimale performa meglio delle seguenti strategie comuni:
+\begin{list}{}{}
+\item Buy and Hold
+\item Media aritmetica delle stock
+\item Media Geometrica delle stock
+\end{list}
+
+Tuttavia il Portfolio CRP ottimale è estremamente difficile da ottenere, in quanto richiederebbe una completa conoscenza di tutte le performance future
+
+\newpage
+
+%%%% NEWPAGE
+
+\section{Volatility}
+	Una delle più importanti caratteristiche degli asset finanziar è la loro volatilità.
+	
+	Con Volatilità ci riferiamo al grado di fluttuazione negli asset returns, tuttavia, non è qualcosa che si può osservare direttamente.
+	
+	Possiamo osservare i ritorni di una stock ogni giorno, confrontando il cambio di prezzo rispetto al giorno precedente, ma non possiamo osservare come i ritorni fluttuano di giorno in giorno.
+	
+	Dobbiamo fare delle osservazioni addizionali sui ritorni in diversi momenti della stessa giornata per avere una \emph{stima}, ma questa potrebbe non essere abbastanza per samere quanto i ritorni fluttuano di giorno in giorno
+	
+	Pertanto, la volatilità non è osservata ma stimata con dei modelli.
+	
+	Una prospettiva generica, è quella di considerare la volatilità la deviazione standard condizionale(?) degli asset returns.
+
+  %%
+
+\newpage
+
+%%%% NEWPAGE
+
+\chapter{Forecasting}
+	{\huge{QUESTE SLIDE VANNO RIVISTE}}
+	Nell'analisi delle time series siamo interessati al progettare  modelli per \textbf{predirre il futuro}.
+	
+	Nella finanza preferiamo utilizzare modelli statistici.
+
+\subsection{Linearity Assumption}
+	Assumiamo che le variabili $x_{t+h} xt,...,xt-p$ abbiamo una distribuzione normale, dove il processo ${X_t}$ è la Gaussiana, allora
+
+\begin{center}
+	$E(X_{t+h}|X_t,X_{t-1}...X_{t-p})=\alpha_0 X_t+ \alpha_1 X_{t-1}...+\alpha_p X_{t-p}$
+\end{center}
+con $\alpha$ valori reali.
+
+	Secondo questa, il problema di costruire la miglior predizione per il processo Gaussiano è un tipo di \emph{regressione lineare}
+
+	Per ogni altro processo, non distribuito normalmente, desideriamo progettare un predittore come combinazione lineare del suo passato, anche se questo non coincide con i valori attesi data la sua "history"
+	
+
+	
 
 \end{document}

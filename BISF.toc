@@ -1,0 +1,98 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {part}{I\hspace {1em}Concetti base di Finanza}{4}
+\contentsline {chapter}{\numberline {1}Financial Instruments}{5}
+\contentsline {section}{\numberline {1.1}Computing profit}{6}
+\contentsline {subsection}{\numberline {1.1.1}Compounding of Interest Rates}{7}
+\contentsline {section}{\numberline {1.2}Payoff e profit dei bond}{8}
+\contentsline {subsection}{\numberline {1.2.1}Continous Compounding}{8}
+\contentsline {section}{\numberline {1.3}Stocks: Trade, Price, Indices}{9}
+\contentsline {subsection}{\numberline {1.3.1}Compravendita di stocks}{9}
+\contentsline {section}{\numberline {1.4}Storico transazioni}{11}
+\contentsline {section}{\numberline {1.5}Payoff e profit delle stocks}{12}
+\contentsline {section}{\numberline {1.6}Stock Indices}{12}
+\contentsline {section}{\numberline {1.7}Opzioni e Derivate}{13}
+\contentsline {section}{\numberline {1.8}Payoff e Profit delle opzioni}{14}
+\contentsline {subsection}{\numberline {1.8.1}Profit delle opzioni}{14}
+\contentsline {subsection}{\numberline {1.8.2}Perch\IeC {\`e} le opzioni}{14}
+\contentsline {subsection}{\numberline {1.8.3}Prezzatura delle opzioni}{15}
+\contentsline {section}{\numberline {1.9}Futures and Forwards}{16}
+\contentsline {subsection}{\numberline {1.9.1}Payoff e Profit di Futures and Forwards}{16}
+\contentsline {section}{\numberline {1.10}Portfolio}{17}
+\contentsline {subsection}{\numberline {1.10.1}ETF e Fondi mutuali}{17}
+\contentsline {chapter}{\numberline {2}Trading}{18}
+\contentsline {section}{\numberline {2.1}Posizioni di Trading}{18}
+\contentsline {subsection}{\numberline {2.1.1}Perch\IeC {\`e} shorti?}{18}
+\contentsline {section}{\numberline {2.2}Trading Attitudes}{19}
+\contentsline {subsection}{\numberline {2.2.1}Hedgers}{19}
+\contentsline {subsection}{\numberline {2.2.2}Speculators}{19}
+\contentsline {subsection}{\numberline {2.2.3}Arbitrageurs}{19}
+\contentsline {subsubsection}{L'arbitraggio}{19}
+\contentsline {section}{\numberline {2.3}Bulls/Bears}{20}
+\contentsline {subsection}{\numberline {2.3.1}Determining bull or bear}{20}
+\contentsline {section}{\numberline {2.4}Market Timing}{20}
+\contentsline {subsection}{\numberline {2.4.1}Strategie di Timing}{20}
+\contentsline {section}{\numberline {2.5}Prezzo vs Valore}{20}
+\contentsline {subsection}{\numberline {2.5.1}Modello Discounted Cash Flow}{21}
+\contentsline {section}{\numberline {2.6}Arbitraggio}{22}
+\contentsline {subsection}{\numberline {2.6.1}Extended no arbitrage}{22}
+\contentsline {subsection}{\numberline {2.6.2}Consequenze}{22}
+\contentsline {section}{\numberline {2.7}Valutazione Risk-neutral}{22}
+\contentsline {section}{\numberline {2.8}Ipotesi di mercato efficiente EMH*}{23}
+\contentsline {subsection}{\numberline {2.8.1}Test di EMH}{23}
+\contentsline {subsubsection}{EMH e la computabilit\IeC {\`a}}{23}
+\contentsline {chapter}{\numberline {3}Electronic Market, Limit Order Book}{24}
+\contentsline {section}{\numberline {3.1}Trading nel mercato elettronico}{24}
+\contentsline {subsection}{\numberline {3.1.1}LOB e il suo spread}{25}
+\contentsline {section}{\numberline {3.2}Il Limit Order Book}{26}
+\contentsline {subsection}{\numberline {3.2.1}L'aggiunta di LO al LOB}{26}
+\contentsline {subsection}{\numberline {3.2.2}Microprice}{26}
+\contentsline {section}{\numberline {3.3}Tempo}{26}
+\contentsline {subsection}{\numberline {3.3.1}Tipi di ordine}{27}
+\contentsline {section}{\numberline {3.4}Colocation}{28}
+\contentsline {section}{\numberline {3.5}Exchange Fees}{28}
+\contentsline {section}{\numberline {3.6}Trader Class}{28}
+\contentsline {subsection}{\numberline {3.6.1}Liquidit\IeC {\`a} e traders}{29}
+\contentsline {chapter}{\numberline {4}Asset e rendimenti}{30}
+\contentsline {section}{\numberline {4.1}rendimenti semplici ad un periodo}{30}
+\contentsline {subsection}{\numberline {4.1.1}Il periodo di Holding e i rendimenti}{30}
+\contentsline {section}{\numberline {4.2}rendimenti semplici}{30}
+\contentsline {subsection}{\numberline {4.2.1}Esempio}{31}
+\contentsline {section}{\numberline {4.3}rendimenti compunded e Multi-Periodo}{31}
+\contentsline {subsection}{\numberline {4.3.1}Continous Compound Return}{32}
+\contentsline {subsection}{\numberline {4.3.2}Esempio}{32}
+\contentsline {section}{\numberline {4.4}rendimenti e Portfolio}{32}
+\contentsline {subsection}{\numberline {4.4.1}Simple Returns}{33}
+\contentsline {section}{\numberline {4.5}I dividendi}{33}
+\contentsline {section}{\numberline {4.6}Inflazione}{33}
+\contentsline {subsection}{\numberline {4.6.1}Calcolo per i rendimenti reali}{34}
+\contentsline {subsection}{\numberline {4.6.2}Calcolo Inflazione}{34}
+\contentsline {section}{\numberline {4.7}rendimenti annuali}{35}
+\contentsline {subsection}{\numberline {4.7.1}Esempio}{35}
+\contentsline {section}{\numberline {4.8}rendimenti medi}{35}
+\contentsline {section}{\numberline {4.9}Annualizzare i rendimenti}{35}
+\contentsline {chapter}{\numberline {5}Ottimizzazione Portfolio}{36}
+\contentsline {section}{\numberline {5.1}Il modello media-varianza}{37}
+\contentsline {subsection}{\numberline {5.1.1}Reminder sui Portfolio return}{37}
+\contentsline {subsection}{\numberline {5.1.2}Considerazioni}{37}
+\contentsline {section}{\numberline {5.2}Portfolio a Rischio minimo}{38}
+\contentsline {subsection}{\numberline {5.2.1}Considerazioni}{38}
+\contentsline {section}{\numberline {5.3}Frontiera di efficienza}{38}
+\contentsline {section}{\numberline {5.4}Portfolio con asset risk-free}{39}
+\contentsline {section}{\numberline {5.5}La linea del mercato capitale e il portfolio di mercato}{41}
+\contentsline {subsection}{\numberline {5.5.1}Market Portfolio}{41}
+\contentsline {subsection}{\numberline {5.5.2}Sharpe Ratio}{42}
+\contentsline {section}{\numberline {5.6}Il modello Capital Asset Pricing e Beta}{43}
+\contentsline {subsection}{\numberline {5.6.1}CAPM come modello di pricing}{43}
+\contentsline {subsection}{\numberline {5.6.2}Il significato di Beta}{44}
+\contentsline {subsection}{\numberline {5.6.3}Continuo sull'interpretazione di Beta}{44}
+\contentsline {subsection}{\numberline {5.6.4}Stimare il valore di Beta}{45}
+\contentsline {section}{\numberline {5.7}Ottimizzare il portfolio sotto diversi vincoli}{46}
+\contentsline {subsection}{\numberline {5.7.1}Sui Vincoli}{46}
+\contentsline {section}{\numberline {5.8}Portfolio Selection}{47}
+\contentsline {section}{\numberline {5.9}Strategie di selezione Portfolio}{48}
+\contentsline {subsection}{\numberline {5.9.1}Valutare la performance di una strategia}{48}
+\contentsline {section}{\numberline {5.10}Portfolii Ribilanciati Costantemente}{48}
+\contentsline {section}{\numberline {5.11}Volatility}{50}
+\contentsline {chapter}{\numberline {6}Forecasting}{51}
+\contentsline {subsection}{\numberline {6.0.1}Linearity Assumption}{51}
